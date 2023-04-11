@@ -1,5 +1,5 @@
 
 def main():
-    pass
+    print("Hello everyone")
 
 main()
