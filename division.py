@@ -10,3 +10,10 @@ def division_cal(num1, num2):
     return num1 / num2
 
 
+def main():
+    number1 = input(int("Enter 1 number: "))
+    number2 = input(int("Enter another number: "))
+    division_cal(number1, number2)
+
+
+main()
