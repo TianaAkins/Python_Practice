@@ -2,6 +2,8 @@ import os
 import sys
 import re
 
+directory = sys.argv[1]
+
 def remove_files(directory):
     files = os.listdir(directory)
 
@@ -14,5 +16,5 @@ def remove_files(directory):
             os.remove(file)
 
 
-remove_files()
+remove_files(directory)
     
