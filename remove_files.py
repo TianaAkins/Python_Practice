@@ -2,7 +2,7 @@ import os
 import sys
 import re
 
-directory = sys.argv[1]
+directory=sys.argv[1]
 
 def remove_files(directory):
     files = os.listdir(directory)
