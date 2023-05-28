@@ -1,8 +1,7 @@
 import os
-import sys
 import re
 
-directory=sys.argv[1]
+directory = os.getcwd()
 
 def remove_files(directory):
     files = os.listdir(directory)
@@ -14,6 +13,8 @@ def remove_files(directory):
 
         if result != None:
             os.remove(file)
+    
+    return os.listdir(directory)
 
 
 remove_files(directory)
