@@ -8,7 +8,7 @@ def remove_files(directory):
 
     for file in files:
 
-        pattern = r"^\_\_[a-zA-Z]"
+        pattern = r"[a-zA-Z]\.txt$"
         result = re.match(pattern, file)
 
         if result != None:
